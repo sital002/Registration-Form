@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(132, 138, 163);
+    font-size: large;
+}
+.registration{
+height: 600px;
+width: 500px;
+margin: auto;
+border-radius: 5px;
+background-color: rgb(233, 228, 228);
+}
+fieldset{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 7px 0px 5px 0px;
+    margin: 50px 60px 11px 44px;
+}
+legend{
+    font-size: xx-large;
+    text-align: center;
+}
+.details input{
+    font-size: large;
+    height: 40px;
+    width: 100%;
+    margin: 12px;
+    padding: 3px 0px 3px 4px;
+}
+.fullname input{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgb(63, 196, 36);
+}
+#btn{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+    margin: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(63, 196, 36);
+}
+#btn:hover{
+    background-color: green;
+    transition: 0.5s ;
+}
