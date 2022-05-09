@@ -9,28 +9,31 @@
     <link rel="shortcut icon" href="Img/logo.svg" type="image/x-icon">
 </head>
 <body>
-    <form method="get" >
+    <form method="get" action="" >
     <div class="registration">
         <fieldset>
             <legend>Register</legend>
             <label >Create your account.It's free and only takes a minute.</label>
             <div class="details">
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
+                <input type="text" placeholder="First Name" name="firstname" required autofocus class="input">
+                <input type="text" placeholder="Last Name" name="lastname" required class="input">
             </div>
             <div class="details">
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Confirm Password" required>
+                <input type="email" placeholder="Email" name="email" required class="input">
+                <input type="password" placeholder="Password"
+                name="password" required class="input">
+                <input type="password" placeholder="Confirm Password" name="password" required  class="input">
                 
             </div>
-            <div >
-                <input type="checkbox" name="Terms and condtions" id="terms" ><label for="terms"> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy.</a></label>
-                <input type="button" value="Register Now" id="btn">
+            <div class="agreement">
+                <input type="checkbox" id="terms" required ><label for="terms"> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy.</a></label>
+                <input type="submit" value="Register Now" id="btn" disabled >
+                <label for="signin" id="signin">Already have an account?<a href="#">Sign in</a></label>
             </div>
             
         </fieldset>
     </div>
     </form>
+    <script src="JavaScript/main.js"></script>
 </body>
 </html>
